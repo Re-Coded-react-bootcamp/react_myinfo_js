@@ -1,9 +1,10 @@
 import React from 'react';
+import My from './MyInfo.jsx';
 
 function App() {
   return (
     <div>
-      <h1>Hello World!!</h1>
+      <My />
     </div>
   );
 }
