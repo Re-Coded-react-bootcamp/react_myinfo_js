@@ -21,7 +21,7 @@ export default function MyInfo(props) {
     <center style={{ marginTop: "50px" }}>
       <div className="card ffoonntt">
         <h1 className="shadoww">
-          Im {props.all.name}{" "}
+          {props.all.name}{" "}
           <span aria-labelledby="Some thing" role="img">
             😃
           </span>
