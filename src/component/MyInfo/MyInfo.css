@@ -1,0 +1,36 @@
+body {
+    background-image: url(https://i.imgur.com/YJtb77c.jpg);
+    background-repeat: no-repeat;
+  background-size: auto;
+  
+}
+h1 {
+font: bold;
+font-size: 48px;
+}
+div {
+    margin:30px;
+}
+ul{
+    list-style-type: none;
+    width:600px;
+}
+
+li img{
+    float:left;
+    margin:0 20px 0 0;
+    width:130px; height:120px;
+
+}
+ p{
+font-family: Arial, Helvetica, sans-serif;
+}
+li {
+    padding: 15px;
+    overflow: auto;
+}
+li:hover{
+    background:#F0F0F0;
+    cursor: pointer;
+
+}
