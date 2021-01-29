@@ -1,13 +1,128 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.container-kk {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: url(./asset/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ffoonntt {
+  font-family: "Courgette", cursive;
+}
+
+.card {
+  width: 700px;
+  height: auto;
+  padding: 25px;
+  padding-top: 25px;
+  background: -o-radial-gradient(
+    0% 0%,
+    100% 100%,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: radial-gradient(
+    100% 100% at 0% 0%,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  -webkit-box-shadow: 0px 0px 12px rgb(82, 79, 79);
+  box-shadow: 0px 0px 12px rgb(82, 79, 79);
+  margin-top: 50px;
+}
+
+.card:hover {
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  background: -o-radial-gradient(
+    0% 0%,
+    100% 100%,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  background: radial-gradient(
+    100% 100% at 0% 0%,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  -webkit-box-shadow: 0px 0px 16px rgb(82, 79, 79);
+  box-shadow: 0px 0px 16px rgb(82, 79, 79);
+}
+.rasm {
+  width: 40%;
+  height: 60%;
+}
+
+.shadoww {
+  text-shadow: 3px 2px 7px rgb(84, 122, 192);
+}
+
+.bshadow {
+  text-shadow: 3px 2px 10px white;
+  -webkit-text-stroke: 0.001px rgb(59, 55, 55);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.card:last-child {
+  margin-bottom: 100px;
+}
+
+.flexxx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.irsm {
+  width: 1000px;
+  height: 1000px;
+}
+
+.set {
+  color: white;
+}
+
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
