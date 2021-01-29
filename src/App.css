@@ -1,0 +1,25 @@
+.t-center{
+    text-align: center;
+}
+.card{
+    background-color: aliceblue;
+    width: 500px;
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   justify-items: center;
+}
+
+.bio{
+    text-align: center;
+}
+
+.card-header{
+    background-color: white;
+    display: inline-block;
+}
+
+.p-0{
+    padding: 0px;
+    margin: 0px;
+}
